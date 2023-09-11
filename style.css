@@ -1,0 +1,95 @@
+body { 
+     font-family: 'Roboto', sans-serif; 
+     text-align: center; 
+     background-color: #333; 
+     margin: 0; 
+     padding: 0; 
+ } 
+  
+ h1 { 
+     font-size: 34px; 
+     margin-top: 20px; 
+     color: #b1ddf1; 
+ } 
+  
+ .profile-picture { 
+     max-width: 200px; 
+     border-radius: 20px; 
+     margin: 20px auto; 
+     border: 4px solid #fccb06; 
+     transition: transform 0.2s ease-in-out; 
+ } 
+  
+ .profile-picture:hover{ 
+     transform: scale(1.1); 
+ } 
+  
+ .data-container { 
+     font-size: 20px; 
+     margin-top: 20px; 
+     padding: 20px; 
+     background-color: aquamarine; 
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+     display: flex;  
+     flex-direction: column;  
+ } 
+  
+ .data-container p { 
+     margin: 10px 0; 
+ } 
+  
+ .data-container .info-container { 
+     background-color: #fccb06; 
+     color: #333; 
+     padding: 10px; 
+     text-align: center; 
+     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+     cursor: pointer; 
+ } 
+  
+  
+ .data-container .info-container:hover { 
+     background-color: #000000; 
+     color: #fff; 
+ } 
+  
+ a { 
+     text-decoration: none; 
+     color: #000000; 
+     font-weight: bold; 
+     font-size: 18px; 
+ } 
+  
+ a:hover { 
+     color: sandybrown; 
+ } 
+  
+ a:visited{ 
+     color: green; 
+ } 
+  
+ a:active{ 
+     color: cornsilk; 
+ } 
+  
+ /* Media Query for smaller screens */ 
+ @media (max-width: 768px) { 
+     h1 { 
+         font-size: 30px; 
+     } 
+  
+     .profile-picture { 
+         max-width: 150px; 
+     } 
+  
+     .data-container { 
+         font-size: 18px; 
+     } 
+ } 
+  
+ /* data container hover */ 
+ .data-container:hover { 
+     background-color: blueviolet; 
+     color: #000000; 
+     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+ }
